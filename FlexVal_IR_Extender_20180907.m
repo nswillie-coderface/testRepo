@@ -77,7 +77,11 @@ switch r.data_set
         p.name = 'Flex128_IR_Extender_matTones.csv'; %name for export files
         p.jDiff_multiplier = 20; %magnify johnson derivative
         p.extenderEvent_size = 100; %size to make parallel port event tics for graphing
-        p.johnson_threshold = 22; %set johnson derivative threshold to identify johnson events
+        p.johnson_threshold = 22; %set johnson derivative threshold to identify johnson
+
+New changes here. Lets say I put in some amazing code and we love how this works I am one badass coder
+
+ events
         p.jEventMark_size = 100; %how big to make the event mark (for graphing)
         p.jOnset_multiplier = 50; %multiply the onset value by something for graphing
         p.x_range = 14250:14500; % what to show on the x-axis for graphs
